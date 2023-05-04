@@ -1,0 +1,189 @@
+.sec1 {
+  width: 100%;
+  height: 450px;
+  background: url("../img/section_img.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.stadium_inner {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 100%;
+  width: 100%;
+  padding: 40px;
+}
+
+.stadium_title_item {
+  width: 510px;
+  font-size: 52px;
+}
+
+.stadium_text {
+  font-size: 36px;
+  font-weight: 300;
+  width: 70%;
+}
+
+.stadium_btns {
+  display: flex;
+  margin-top: 38px;
+}
+
+.stadium_btns button {
+  margin-right: 30px;
+}
+
+.btn_2 {
+  background: none;
+}
+
+.art1 {
+  width: 100%;
+}
+
+.about_title {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.about_main {
+  display: flex;
+  justify-content: center;
+}
+
+.about_inner {
+  width: 60%;
+  justify-content: center;
+}
+
+.about_inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.about_inner_items {
+  margin: 30px;
+  width: 30%;
+  text-align: center;
+}
+
+.about_inner_items div {
+  display: flex;
+  justify-content: center;
+}
+
+.about_inner_items img {
+  margin: 19px 0 35px 0;
+}
+
+.about_inner_items p {
+  width: 322px;
+}
+.art2 {
+  text-align: center;
+  color: white;
+  width: 100%;
+  background-color: #262626;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+.art2_main {
+  width: 270px;
+}
+.art2 h3 {
+  margin: 10px 0px;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+@media (min-width: 330px) and (max-width: 1023px) {
+  .stadium_title_item {
+    text-align: center;
+    width: 100%;
+    padding: 20px 0;
+  }
+
+  .stadium_btns .btn_2 {
+    display: none;
+  }
+
+  .stadium_btns button {
+    margin: 0;
+  }
+
+  .stadium_btns {
+    width: 100%;
+    justify-content: center;
+  }
+  .about_inner {
+    width: 80%;
+  }
+}
+
+@media (min-width: 330px) and (max-width: 767px) {
+  .sec1 {
+    height: 450px;
+  }
+  .about_inner {
+    flex-direction: column;
+  }
+  .stadium_title_item {
+    font-size: 32px;
+  }
+
+  .stadium_inner {
+    padding: 20px 0 0;
+  }
+
+  .stadium_text {
+    width: 100%;
+    font-size: 21px;
+    text-align: center;
+    padding: 10px 0;
+  }
+  .about_inner_items {
+    margin: 35px 0;
+    width: 100%;
+  }
+  .about_inner_items:last-child {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .stadium_title_item {
+    font-size: 32px;
+    padding: 0;
+  }
+  .stadium_text {
+    width: 92%;
+    margin: auto;
+    font-size: 20px;
+    text-align: center;
+  }
+  .about_inner{
+    padding-bottom: 35px;
+  }
+  .about_inner_items {
+    width: 40%;
+    margin: 0;
+  }
+
+  .sec1 {
+    height: 309px;
+  }
+  .stadium_btns button {
+    width: 65%;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1700px) {
+  .stadium_text {
+    width: 85%;
+    font-size: 26px;
+  }
+}
